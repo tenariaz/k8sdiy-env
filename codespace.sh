@@ -13,7 +13,7 @@ curl -fsSL https://get.opentofu.org/install-opentofu.sh | sh -s -- --install-met
 
 # Instrall K9S to manage the cluster
 curl -sS https://webi.sh/k9s | sh
-curl -s https://fluxcd.io/install.sh | sh
+curl -s https://fluxcd.io/install.sh | bash
 . <(flux completion zsh)
 
 # Initialize Tofu
